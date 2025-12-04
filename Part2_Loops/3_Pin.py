@@ -20,3 +20,23 @@
 
 
 # Write your code here:
+attempt=0
+
+while True:
+    pin = input("PIN: ") 
+    attempt+=1
+
+    if pin == "4321":
+    
+        print(f"Correct! It only took you {attempt} attempts'!")
+        break
+       
+    else: 
+        print("wrong")
+ 
+
+
+    
+        
+
+
